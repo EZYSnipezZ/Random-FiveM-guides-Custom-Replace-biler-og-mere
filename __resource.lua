@@ -1,20 +1,20 @@
 resource_manifest_version '77731fab-63ca-442c-a67b-abc70f28dfa5'
  
 files {
-    'vehicles.meta',
-    'carvariations.meta',
-    'carcols.meta',
-    'handling.meta',
-    'vehiclelayouts.meta',    -- Not Required
+    'vehicles.meta',    -- Hvis du ikke har sådanne en fil i din mappe, skal du sætte 2 streger "--" foran linjen
+    'carvariations.meta',      -- Hvis du ikke har sådanne en fil i din mappe, skal du sætte 2 streger "--" foran linjen
+    'carcols.meta',     -- Hvis du ikke har sådanne en fil i din mappe, skal du sætte 2 streger "--" foran linjen
+    'handling.meta',    -- Hvis du ikke har sådanne en fil i din mappe, skal du sætte 2 streger "--" foran linjen
+    'vehiclelayouts.meta',    -- Hvis du ikke har sådanne en fil i din mappe, skal du sætte 2 streger "--" foran linjen
 }
 
-data_file 'HANDLING_FILE' 'handling.meta'
-data_file 'VEHICLE_METADATA_FILE' 'vehicles.meta'
-data_file 'CARCOLS_FILE' 'carcols.meta'
-data_file 'VEHICLE_VARIATION_FILE' 'carvariations.meta'
-data_file 'VEHICLE_LAYOUTS_FILE' 'vehiclelayouts_artura.meta'   -- Not Required
+data_file 'HANDLING_FILE' 'handling.meta'       -- Hvis du ikke har sådanne en fil i din mappe, skal du sætte 2 streger "--" foran linjen
+data_file 'VEHICLE_METADATA_FILE' 'vehicles.meta'       -- Hvis du ikke har sådanne en fil i din mappe, skal du sætte 2 streger "--" foran linjen
+data_file 'CARCOLS_FILE' 'carcols.meta'     -- Hvis du ikke har sådanne en fil i din mappe, skal du sætte 2 streger "--" foran linjen
+data_file 'VEHICLE_VARIATION_FILE' 'carvariations.meta'     -- Hvis du ikke har sådanne en fil i din mappe, skal du sætte 2 streger "--" foran linjen
+data_file 'VEHICLE_LAYOUTS_FILE' 'vehiclelayouts.meta'      -- Hvis du ikke har sådanne en fil i din mappe, skal du sætte 2 streger "--" foran linjen
 
 
--- client_script {
---     'vehicle_names.lua'    -- Not Required
--- }
+client_script {
+    'vehicle_names.lua'    -- Hvis du ikke har sådanne en fil i din mappe, skal du sætte 2 streger "--" foran linjen
+}
